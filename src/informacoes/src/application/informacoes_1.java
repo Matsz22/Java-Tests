@@ -6,7 +6,7 @@ public class informacoes_1 {
 
     public static void main(String[] args)
             throws IOException {
-        char choice;
+        char choice = 0;
 
         System.out.println("Help on:");
         System.out.println("	1- if" );
