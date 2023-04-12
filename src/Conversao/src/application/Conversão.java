@@ -9,7 +9,7 @@ public class Conversão {
         b = 10;
         i = b * b;
 
-        b = 10;
+        b = 12;
         b = (byte) (b * b);
 
         System.out.println("i e b: " + i + " e " + b);
