@@ -1,7 +1,7 @@
 package udemy.src.application;
 
 import java.util.Scanner;
-public class whileQuadrante {
+public class whileEx2 {
     public static void main(String[] args) {
 
         System.out.println("enter 2 numbers in the keyboard: ");

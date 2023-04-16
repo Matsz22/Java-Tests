@@ -1,7 +1,7 @@
 package udemy.src.application;
 
 import java.util.Scanner;
-public class forValorInt {
+public class forEx2a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
