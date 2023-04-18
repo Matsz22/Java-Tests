@@ -4,8 +4,8 @@ public class twoVehicles {
     public static void main(String[] args) {
         vehicle minivan = new vehicle();
         vehicle sportcar = new vehicle();
-
-        int range1, range2;
+        double gallons;
+        int dist = 252;
 
         minivan.passengers = 7;
         minivan.fuelcap = 16;
@@ -15,15 +15,12 @@ public class twoVehicles {
         sportcar.fuelcap = 14;
         sportcar.mpg = 12;
 
-        range1 = minivan.range();
-        range2 = sportcar.range();
+        gallons = minivan.fuelneeded(dist);
 
-        System.out.println("Minivan can carry " + minivan.passengers + " with a range of " + range1 + " miles");
+        System.out.println("To go " + dist + " miles minivan needs " + gallons + " gallons of fuel.");
 
+        gallons = sportcar.fuelneeded(dist);
 
-
-
-        System.out.println("Sportcar can carry " + sportcar.passengers + " with a range of " + range2 + " miles");
-
+        System.out.println("To go " + dist + " miles sportcar needs " + gallons + " gallons of fuel.");
     }
 }
