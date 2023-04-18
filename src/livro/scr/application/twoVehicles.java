@@ -15,12 +15,15 @@ public class twoVehicles {
         sportcar.fuelcap = 14;
         sportcar.mpg = 12;
 
-        range1 = minivan.fuelcap * minivan.mpg;
-        range2 = sportcar.fuelcap * sportcar.mpg;
+        System.out.print("Minivan can carry " + minivan.passengers + ". ");
 
-        System.out.println("Minivan can carry " + minivan.passengers + " with a range of " + range1);
+        minivan.range();
 
-        System.out.println("Sportcar can carry " + sportcar.passengers + " with a range of " + range2);
+
+
+        System.out.print("Sportcar can carry " + sportcar.passengers + ". ");
+
+        sportcar.range();
 
 
     }
