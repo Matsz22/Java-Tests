@@ -5,7 +5,7 @@ public class vehicle {
     int fuelcap;
     int mpg;
 
-    void range() {
-        System.out.println("Range is " + fuelcap * mpg);
+    int range() {
+        return mpg * fuelcap;
     }
 }
