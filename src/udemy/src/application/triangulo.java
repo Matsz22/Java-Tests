@@ -7,22 +7,25 @@ public class triangulo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
-        double xA, xB, xC, yA, yB, yC;
+
+        triangleTwo x, y;
+        x = new triangleTwo();
+        y = new triangleTwo();
 
         System.out.println("Enter the measures of triangle X: ");
-        xA = sc.nextInt();
-        xB = sc.nextInt();
-        xC = sc.nextInt();
+        x.a = sc.nextInt();
+        x.b = sc.nextInt();
+        x.c = sc.nextInt();
         System.out.println("Enter the measures of triangle Y: ");
-        yA = sc.nextInt();
-        yB = sc.nextInt();
-        yC = sc.nextInt();
+        y.a = sc.nextInt();
+        y.b = sc.nextInt();
+        y.c = sc.nextInt();
 
-        double p = (xA + xB + xC) / 2.0;
-        double areaX = Math.sqrt(p * (p - xA) * (p - xB) * (p - xC));
+        double p = (x.a + x.b + x.c) / 2.0;
+        double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
 
-        p = (yA + yB + yC) / 2.0;
-        double areaY = Math.sqrt(p * (p - yA) * (p - yB) * (p - yC));
+        p = (y.a + y.b + y.c) / 2.0;
+        double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
 
         System.out.printf("triangle X area: %.4f%n", areaX);
         System.out.printf("triangle Y area: %.4f%n", areaY);
