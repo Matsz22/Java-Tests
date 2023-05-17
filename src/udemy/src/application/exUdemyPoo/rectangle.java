@@ -1,4 +1,4 @@
-package udemy.src.application.exUdemy;
+package udemy.src.application.exUdemyPoo;
 
 public class rectangle {
 

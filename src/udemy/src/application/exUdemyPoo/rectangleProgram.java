@@ -1,10 +1,9 @@
-package udemy.src.application.exUdemy;
+package udemy.src.application.exUdemyPoo;
 
-import java.awt.*;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class rectangleApply {
+public class rectangleProgram {
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
