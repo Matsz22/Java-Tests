@@ -3,13 +3,13 @@ package udemy.src.application.exProdutoPoo;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class programProd {
+public class Program {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
 
-        programProduct product = new programProduct();
+        Product product = new Product();
         System.out.println("Enter product data: ");
         System.out.print("Name: ");
         product.name = sc.nextLine();
@@ -18,7 +18,7 @@ public class programProd {
         System.out.println("Quantity: ");
         product.quantity = sc.nextInt();
 
-        System.out.println(product.name + "," + product.price + "," + product.quantity);
+        System.out.println(product);
 
 
         sc.close();
