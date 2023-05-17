@@ -1,7 +1,7 @@
-package udemy.src.application;
+package udemy.src.application.exBasicos;
 
 import java.util.Scanner;
-public class forEx2a {
+public class forEx2b {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

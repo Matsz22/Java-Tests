@@ -1,4 +1,4 @@
-package udemy.src.application;
+package udemy.src.application.exBasicos;
 
 import java.util.Locale;
 import java.util.Scanner;

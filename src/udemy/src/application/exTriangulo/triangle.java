@@ -1,9 +1,9 @@
-package udemy.src.application;
+package udemy.src.application.exTriangulo;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class triangulo {
+public class triangle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Locale.setDefault(Locale.US);
@@ -21,11 +21,9 @@ public class triangulo {
         y.b = sc.nextInt();
         y.c = sc.nextInt();
 
-        double p = (x.a + x.b + x.c) / 2.0;
-        double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
+        double areaX = x.area();
 
-        p = (y.a + y.b + y.c) / 2.0;
-        double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
+        double areaY = y.area();
 
         System.out.printf("triangle X area: %.4f%n", areaX);
         System.out.printf("triangle Y area: %.4f%n", areaY);

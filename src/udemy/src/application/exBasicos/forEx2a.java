@@ -1,7 +1,7 @@
-package udemy.src.application;
+package udemy.src.application.exBasicos;
 
 import java.util.Scanner;
-public class forEx2 {
+public class forEx2a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Um valor limite para números impares ");
