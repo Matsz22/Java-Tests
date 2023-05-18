@@ -1,4 +1,4 @@
-package udemy.src.application.exUdemyPoo;
+package udemy.src.application.exTaxaSalario;
 
 public class employee {
 
@@ -7,12 +7,15 @@ public class employee {
     public double tax;
 
     public double netSalary() {
+
         return grossSalary - tax;
     }
     public void increaseSalary(double percentage) {
+
         grossSalary += grossSalary * percentage /100;
     }
     public String toString() {
+
         return name + ", $ " + String.format("%.2f", netSalary());
     }
 }

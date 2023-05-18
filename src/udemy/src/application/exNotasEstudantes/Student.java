@@ -1,4 +1,4 @@
-package udemy.src.application.exUdemyPoo;
+package udemy.src.application.exNotasEstudantes;
 
 public class Student {
     public String name;
